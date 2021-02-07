@@ -1,0 +1,15 @@
+- name: valueMax
+  description: Maximize the value of your money! Calculate the per-use value of purchases over time.
+  tech: Node.js, Express, MongoDB, Semantic UI
+  code: https://github.com/niamurrell/value-app
+  demo: https://valuemax.herokuapp.com/
+  image:
+  visible: true
+
+- name: Rides For Rewards
+  description: Demo app for Women Who Code Workshop. Rewards platform for LA Metro users.
+  tech: Node.js, Express, PostgreSQL, Bootstrap
+  code: https://github.com/CodingForProduct/metro_reward
+  demo: https://rides-for-rewards.herokuapp.com/
+  image:
+  visible: true

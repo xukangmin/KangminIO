@@ -5,7 +5,7 @@
 # Site
 title: Kangmin Personal
 subtitle: Small site for hacking, logging, everything
-description: ''
+description: I'm a full-time software developer, have many interests among back-end and hardware technologies.
 keywords:
 author: Kangmin Xu
 language: en
@@ -103,6 +103,7 @@ theme: hackspace
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: heroku
-  repo: https://git.heroku.com/kangmin-personal.git
-  message: "123"
+  type: git
+  repo: https://github.com/xukangmin/KangminIO.git
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: gh_pages
