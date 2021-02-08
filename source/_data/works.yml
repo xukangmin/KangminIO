@@ -1,0 +1,15 @@
+- name: Leak Rate Monitor
+  description: PlaceHolder
+  tech: Node.js, Express, PostgreSQL, Bootstrap
+  code: https://github.com/CodingForProduct/metro_reward
+  demo: https://rides-for-rewards.herokuapp.com/
+  image:
+  visible: true
+
+- name: HydroStatic Rig
+  description: PlaceHolder
+  tech: Node.js, Express, PostgreSQL, Bootstrap
+  code: https://github.com/CodingForProduct/metro_reward
+  demo: https://rides-for-rewards.herokuapp.com/
+  image:
+  visible: true
