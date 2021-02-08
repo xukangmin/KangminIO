@@ -10,6 +10,32 @@ if (!!$.prototype.justifiedGallery) {
   $(".article-gallery").justifiedGallery(options);
 }
 
+document.onkeydown = function(key){ 
+
+  var pos = $("#spacecraft").position();
+ 
+  var pos_top = pos.top;
+  var pos_left = pos.left;
+
+  if (key.key == 'w' || key.key == 'ArrowUp')
+  {
+    $("#spacecraft").css({"top": pos_top - 5});
+  }
+  else if (key.key == 'a' || key.key == 'ArrowLeft')
+  {
+    $("#spacecraft").css({"left": pos_left - 5});
+  }
+  else if (key.key == 's' || key.key == 'ArrowDown')
+  {
+    $("#spacecraft").css({"top": pos_top + 5});
+  }
+  else if (key.key == 'd' || key.key == 'ArrowRight')
+  {
+    $("#spacecraft").css({"left": pos_left + 5});
+  }
+  
+}
+
 $(document).ready(function() {
 
   /**
