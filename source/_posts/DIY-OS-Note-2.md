@@ -12,7 +12,7 @@ ref: http://bochs.sourceforge.net/doc/docbook/user/using-bochs.html
 
 
 ```
-mbrseg         equ    7c0h     ; stor 
+mbrseg         equ    7c0h     ; boot sector address
 outseg         equ    800h     ; store sector address
 
 jmp   start
@@ -61,10 +61,10 @@ mov   si,message3
 call  printstr
 ret
 
-printstr:                  ;显示指定的字符串, 以'$'为结束标记
-      mov al,[si]
-      cmp al,'$'
-      je disover
+printstr:                  ;finish with '$'
+      mov al,[si]         ; mov *si content to al 
+      cmp al,'$'          ; compare al to '$'
+      je disover          ; 
       mov ah,0eh
       int 10h
       inc si
