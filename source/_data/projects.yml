@@ -1,48 +1,61 @@
-- name: Tiny Core Development Boards
+- name: Tiny Core Development Boards (Personal Project)
   description: TinyCore Series include TinyCore 16 (Attiny1616 breakout board), TinyCore 32 (Attiny3217 breakout board) and TinyCore Programmer. TinyCore is miniature prototpying board with common peripherals like I2C, SPI, UART. It also has PWM, Timers, Touch PINS, ADC, DAC, 16K / 32K Flash, 2K SRAM, 256 bytes EEPROM with 8-bit CPU running up to 20MHz all in its tiny body! It has Arduino Support and open source libraries. They are maker & hacker friendly.
   tech: AVR, Attiny1616, Attiny3217, UPDI
   code: https://tinycore.dev/
-  demo: https://valuemax.herokuapp.com/
   image: 
   progress: 100
   visible: true
 
-- name: Current Studio
-  description: PlaceHolder
+- name: Affordable Remote Baby Vitals Monitoring/Alert System (Personal Project)
+  description: Sudden infant death syndrome (SIDS) happened a lot among less than 1 year old babies. Respond time to help these babies is critical. (usually less than few minutes). Alert must be sent as quickly as possible to care givers. Purposed system will monitor vitals including Body Temperature, Breath, Hearth Rate, send emergency alert to care givers in real time.
+  tech: AVR, Attiny1616, Attiny3217, UPDI
+  code: https://www.hackster.io/xkimi/affordable-remote-baby-vitals-monitoring-alert-system-8619ff
+  image: 
+  progress: 100
+  visible: true
+
+- name: Build a Tracker using GPS, Cellular and a Flutter Mobile App (Personal Project)
+  description: Location tracking of people and/or assets is constantly in high demand. The challenge though is to achieve minimum power consumption and low cost. In this article, I'm trying to tackle both with the Notecard by Blues Wireless will explore the possibility of creating a low cost and low power tracking device.
+  tech: AVR, Attiny1616, Attiny3217, UPDI
+  code: https://www.hackster.io/xkimi/build-a-tracker-using-gps-cellular-and-a-flutter-mobile-app-0c4c1e?auth_token=25c453617f0a83e1c865551354a2f015
+  image: 
+  progress: 100
+  visible: true
+
+- name: Leak Rate Monitor (Work)
+  description:  Local Leakage Rate Testing Systems are a compact, light weight and rugged rig used for performing flow make-up or pressure decay Type B and C tests on valves, flanges, airlocks and other containment barriers.
+  tech: Node.js, Express, PostgreSQL, Bootstrap
+  code: https://graftel.com/products/graftel-leak-rate-monitors/
+  demo: https://rides-for-rewards.herokuapp.com/
+  image:
+  visible: true
+
+- name: Heat Exchange Performance Monitoring & Diagnostics (Work)
+  description:  The Hx System is a versatile solution of sensors & electronics that offers remote & real-time process monitoring and diagnostics for heat exchangers.
+  tech: Node.js, Express, PostgreSQL, Bootstrap
+  code: https://gtwlabs.webflow.io/gtw-labs-hx
+  demo: https://rides-for-rewards.herokuapp.com/
+  image:
+  visible: true
+
+- name: Amp Studio (Planning)
+  description: Current Measurement Tool
   tech: Node.js, Express, PostgreSQL, Bootstrap
   code: https://github.com/CodingForProduct/metro_reward
   demo: https://rides-for-rewards.herokuapp.com/
   image:
   visible: true
 
-
-- name: High Accuracy RS485 Temperature Probe
-  description: PlaceHolder
+- name: Auto Stack - Low Code Full Stack App Generator (Planning)
+  description: 
   tech: Node.js, Express, PostgreSQL, Bootstrap
   code: https://github.com/CodingForProduct/metro_reward
   demo: https://rides-for-rewards.herokuapp.com/
   image:
   visible: true
 
-- name: ESP32 based Environmental Monitor
-  description: PlaceHolder
-  tech: Node.js, Express, PostgreSQL, Bootstrap
-  code: https://github.com/CodingForProduct/metro_reward
-  demo: https://rides-for-rewards.herokuapp.com/
-  image:
-  visible: true
-
-- name: IoT Dashboard
-  description: PlaceHolder
-  tech: Node.js, Express, PostgreSQL, Bootstrap
-  code: https://github.com/CodingForProduct/metro_reward
-  demo: https://rides-for-rewards.herokuapp.com/
-  image:
-  visible: true
-
-
-- name: Open Serial DAQ
-  description: PlaceHolder
+- name: DAQ Studio (Planning)
+  description: 
   tech: Node.js, Express, PostgreSQL, Bootstrap
   code: https://github.com/CodingForProduct/metro_reward
   demo: https://rides-for-rewards.herokuapp.com/

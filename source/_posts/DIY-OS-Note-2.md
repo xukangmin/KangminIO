@@ -1,5 +1,5 @@
 ---
-title: DIY OS Note (2) - Reach beyond 512 bytes
+title: DIY OS Note - Reach beyond 512 bytes
 date: 2021-02-08 19:47:35
 tags: diy, operating system
 ---
