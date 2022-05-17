@@ -41,7 +41,7 @@
 - name: Amp Studio (Planning)
   description: Current Measurement Tool
   tech: Node.js, Express, PostgreSQL, Bootstrap
-  code: https://kangmin.io/2021/08/08/amp-studio/
+  code: https://kangmin.io/2021/08/09/amp-studio/
   demo: https://rides-for-rewards.herokuapp.com/
   image:
   visible: true
@@ -49,7 +49,7 @@
 - name: Auto Stack - Low Code Full Stack App Generator (Planning)
   description: Auto Stack Generation
   tech: Node.js, Express, PostgreSQL, Bootstrap
-  code: https://kangmin.io/2022/02/08/auto-stack/
+  code: https://kangmin.io/2022/02/09/auto-stack/
   demo: https://rides-for-rewards.herokuapp.com/
   image:
   visible: true
@@ -57,7 +57,7 @@
 - name: DAQ Studio (Planning)
   description: Auto Stack Generation
   tech: Node.js, Express, PostgreSQL, Bootstrap
-  code: https://kangmin.io/2021/12/08/daq-studio/
+  code: https://kangmin.io/2021/12/09/daq-studio/
   demo: https://rides-for-rewards.herokuapp.com/
   image:
   visible: true
